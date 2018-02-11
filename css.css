@@ -1,0 +1,9 @@
+sdtable.scroll tbody,
+table.scroll thead { display: block; }
+
+
+table.scroll tbody {
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
